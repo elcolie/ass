@@ -290,3 +290,22 @@ SOCIALACCOUNT_ADAPTER = "ass.users.adapters.SocialAccountAdapter"
 
 # Your stuff...
 # ------------------------------------------------------------------------------
+
+# ############## OAUTH SETTINGS ###################
+OAUTH2_PROVIDER = {
+    'SCOPES': {
+        # 'users': 'user details',
+        'read': 'Read scope',
+        'write': 'Write scope',
+        # 'groups': 'Access to your groups',
+        'hole': 'Home Office Lodge Enhancement',
+        'introspection': 'introspection',
+    },
+    'ACCESS_TOKEN_EXPIRE_SECONDS': 86400,  # 1 Day.
+}
+
+# After dive into th OAuth toolkit code. I decided to shoot then endpoint
+# Since the operation during the way to be a token seems long to me.
+OAUTH_TOKEN = {
+    'URL': 'http://localhost:8000/o/token/',
+}
