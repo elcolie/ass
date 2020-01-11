@@ -1,0 +1,16 @@
+pytz
+python-slugify
+Pillow
+argon2-cffi
+redis
+celery
+django-celery-beat
+flower
+django
+django-environ
+django-model-utils
+django-allauth
+django-crispy-forms
+django-redis
+djangorestframework
+coreapi
